@@ -13,7 +13,7 @@ export default async function HomePage({ params }: Props) {
       <section className="relative flex min-h-screen items-center overflow-hidden pt-20">
         {/* Background image */}
         <img
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0UtugO1fAeWo0HzRawjjESEvNJTePlAregpmpibF2MF0FJJlMONY5euldHkglIsdZbFJg7uvgxwvrI0_CpP7P_3_vLf39tNNljOSdgHLvVoIzguoQthEiJhwfIqgAQ9yeDvWWW5_ZAOseWxXEws-osXtey-lXOkKfhwPrk6JRqU_zGC12L6ScUVPH2jadNCPSvRraDHEe5_Pv2f5ssTo7TgPOx8muvyMTlOl9qrhfl6ZOupECFYCLpTj4Xe-JG70jYbQrQypxUSo"
+          src="https://images.unsplash.com/photo-LCcJPoayxfM?auto=format&fit=crop&w=1920&q=80"
           alt=""
           aria-hidden
           className="grayscale-image absolute inset-0 h-full w-full object-cover brightness-90 contrast-110"
@@ -141,28 +141,28 @@ export default async function HomePage({ params }: Props) {
               {
                 name: 'IBPM System',
                 badge: 'New Generation',
-                img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAcT3W-cdzELEx_Pfli0X6kLYmPK2I1jcua8BA4iyv96-bpgcOke81ajlbUO8jykRA3QInwgMEsKIHZq1QtVxQ-wcbpvvmZR6Ml6hr-t22yvgMrgCGesZPQOgn78bcxH7f5LpXbxZfGM1lCcMCWjQDPKlt33Bb3NbyeeRx_qgDn9wXj3bSaAJkopx_5s5Z9lzq9R6qZT04muMFIEd7rQlzyT1gR9x83ydAJl066bAfgVIfi8NrF4IEWtflkuAeVHwXuY1GvW1ZCFcg',
+                img: 'https://images.unsplash.com/photo-LCcJPoayxfM?auto=format&fit=crop&w=800&q=80',
                 desc: 'Invasive blood pressure monitoring with clinical-grade accuracy.',
                 href: '/products/ibpm',
               },
               {
                 name: 'CVC Kits',
                 badge: null,
-                img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB2HtcRcxMVVDhcc4c05uPWjNi1367lhIf7CYAxkJkC9DGqtWnSOCEYtialBsu5yFkFD3EHDG8egcANmAw55IpiJ1fcGWvfl2KbOKdth1mPJDVJYcgO72PNCIVMm_kwEnU6ceFS9DMNfKfnJi-jyLrLAvMC4h-51--pWFz3BlhMdyxxi7F_0Yj76KWcXexefLU-OwyBswQ-ZooZqCvtSgJPWjE97jnpHMF3mukSDAF4ijkcG3NU6APuF6p5N7lLT_YyPRw6_cKnmBY',
+                img: 'https://images.unsplash.com/photo-3y6KBzrBo-0?auto=format&fit=crop&w=800&q=80',
                 desc: 'Advanced venous access optimized for anatomical variance.',
                 href: '/products/cvc',
               },
               {
                 name: 'ET Tubes',
                 badge: null,
-                img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAMnEKJtHMl3SbU7cskEJLPkD-YENTmI1YXpA2wKJBV_7jLP2K7jRQXs1pn1SNILmtTE2ZB_uD1DhGN9nvV0M4Sq4TVhVOBAEazEb_ikKfwRYhFSTVQmi2SIgO7BDn5buWG7qLyhRQ_C8eunrDgzyK0F55llMwV_xRTP2-afqWTJkIN-7eu4QyzWfiJAFetWfYGbKPmir8YSslbRp2Ll05Z0pIONgeT6Rbn4ioP3qW3U5zXDiFBPDhbOAbBKHHr0bLjuAntiB9ubLw',
+                img: 'https://images.unsplash.com/photo--CZJBYF3iHA?auto=format&fit=crop&w=800&q=80',
                 desc: 'High-flow, low-trauma airway management solutions.',
                 href: '/products/endotracheal',
               },
               {
                 name: 'Chest Drainage',
                 badge: null,
-                img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB-61S3_tmV8Ez1zXHVgBGdoe8KsmjH_t8Z9X0la120w0mvedQeUVeef-gJny-GkrePxJVhDoyh2StH4y9_FvPDrHXc-OrmfrgezL9pgXo3H2YUmeUIB0ZCxwGTSneVkQq3KsvI75cd2zdepvmueaI5wpE2FQXV-iiazxPxBcQOWZ8swb9vqerbs160G8mMF5SbRHlF3HRQE3k12JmJFzMvQJSbQ8DffGtq1imM5NOAUPbI8p3fhk3OkcFkrMhrnRFfdt51OxJm7N0',
+                img: 'https://images.unsplash.com/photo-dW6ZTzkn-j4?auto=format&fit=crop&w=800&q=80',
                 desc: 'Integrated kits for efficient thoracic fluid management.',
                 href: '/products/chest-drainage',
               },
@@ -219,7 +219,7 @@ export default async function HomePage({ params }: Props) {
             {/* Left: image */}
             <div className="overflow-hidden rounded-xl">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7trO1lxASfwV5UzvqZpIGIv8oeIw92kBvJdiF_5IBADWT3ldza1OzkfdrNVut9Wi_5xsFvBHQtBkbjuJgqJgypWUbNiyAeTK9iqytBXUCKAWOt_A5OdlTcjyd1rWx2GO1JCIT8-Y-Ys4HchxhX64e2XBzephQ9PtOg1Pd-9smXZA7Hbgd7rWU5KWgmcQF7jMyhGNaaj2_ohfs59oH7uUHLLA69Qc3dYcKfRkg1H8_ZAKPVQJtUTzMHLRb0QSs0XUqxRZ_kqQ6w"
+                src="https://images.unsplash.com/photo-CXQgs12wFHc?auto=format&fit=crop&w=1200&q=80"
                 alt="ROLA device close-up"
                 className="grayscale-image h-full w-full object-cover"
               />
@@ -264,7 +264,7 @@ export default async function HomePage({ params }: Props) {
             <div className="flex flex-col border-b border-outline-variant/20 lg:border-b-0 lg:border-r">
               <div className="h-56 overflow-hidden">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5KilyjMdiBHHB6X8IFhSMZA9-zy2Dm82V9qg_yCnrI3sTN6EkvXn0hI_ZDDAwtBoldZjSQ1bvSSrWOVt6SxUefenSFeyalYecyQ69BckYRBanp9fzNzJ0hJqxw_aK_2DxhxvnHyRtBJgFiNPbnOC6C-rQd22xG1qvy5rlJi0_TCMuYD3ltRKfJmNy8Ro0rIrOAkwXYe-d9Y_9F0a8wNxcyDa6tTMtmuS3pvNQJaZtmogZa2ZrXEAD03tVGYOyNmv0V5ySdWnQmAw"
+                  src="https://images.unsplash.com/photo-3y6KBzrBo-0?auto=format&fit=crop&w=1200&q=80"
                   alt="Veterinary clinic"
                   className="grayscale-image h-full w-full object-cover brightness-90"
                 />
@@ -299,7 +299,7 @@ export default async function HomePage({ params }: Props) {
             <div className="flex flex-col">
               <div className="h-56 overflow-hidden">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBvbEJhkyGJXZUmYieFU8n3WgJFygrdn43Wu-oT0xfZ5o2mb2oCrq8hTAa7468cChugWr5I-74YBK37WU6fyyHZeUU08LFYhlfpaJ4T6aEw8DUM3snPtKOEDPibt7Q-khNl-2o43aLoYYU1vxNEY453nHXFoDmvP7oXtYQ-HR0H4okTT0gn8H7q7OTmubrQtTLPdewhUVgq_WZZ6YT6JVsZFld1EKDx3jm0FPtm8Kbo3Oef_3YuB5CokeXdTA2uHLEC0At8KZOuyY"
+                  src="https://images.unsplash.com/photo-sdF1Zc6-OQw?auto=format&fit=crop&w=1200&q=80"
                   alt="Distribution center"
                   className="grayscale-image h-full w-full object-cover brightness-90"
                 />
@@ -365,7 +365,7 @@ export default async function HomePage({ params }: Props) {
             {/* Right: image */}
             <div className="overflow-hidden rounded-xl">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDif1Z0dEmNU5ddbarcB0BsbfQMzsFGAhWGVl_iREzxjz5Hr3oLiU-3N0lxTN0pnDA9JnViQzhNmY8fjdlo447m0mtS2XvCKumDAqGd5o2Yz64KxvWq0ZbBjA90OEYnOLXVbYszlQ3EPNYvDyxSqXJ6f33D4MJBia50R-npxuo_UZdsVC_tEdt2syVfRUAuPfJcAcxtjF53Mt7BSjLTyEQKH-2dFyBESvSEnygvTBim5Xmzz_HroKlOWCJ-Kn3_PjodEA0xc9jbrGg"
+                src="https://images.unsplash.com/photo-dW6ZTzkn-j4?auto=format&fit=crop&w=1200&q=80"
                 alt="ROLA cleanroom manufacturing"
                 className="grayscale-image h-full w-full object-cover opacity-80"
               />
@@ -387,21 +387,21 @@ export default async function HomePage({ params }: Props) {
           <div className="mt-16 grid gap-8 sm:grid-cols-3">
             {[
               {
-                img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAMosQYTmYs6ySx8GdL0NNch4wn0dEjLYc3JvtoCenswrmTxJDKxDHxkZZgARzmHrM2GFDnUxCmuZRqCPVERLuE4r8T7RGpZopL3ykjV24hKM-7vULp1XFu7XYUjoMlf4I2I0GfzTRfvOMUZTCzXlf0dET8EcTJIOzgTdy0-3YLN7WJO_EoDFd2sKLvpAoeRIPtOw6sh6lrxNVZjqUwCOTt7ynTMIk4ZXypc1Qc35LGJ3_rL5FCpD9UVIx2w7fXYsBbzhQWfoUT8uo',
+                img: 'https://images.unsplash.com/photo-LCcJPoayxfM?auto=format&fit=crop&w=800&q=80',
                 tag: 'VET TECH • Aug 2025',
                 title: 'Improving CVC placement accuracy in small breeds.',
                 excerpt: 'Exploring the latest clinical techniques for central venous access in feline and small canine patients...',
                 href: '/news/cvc-placement-accuracy',
               },
               {
-                img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAFSM6-L8ymCw_z2-nzcVNbPMEg8swNCSA4cbIXWV-TO1mhFssxBwf3ryXDioV5q0eSNefrqpR3f4CgvoXQmZnM7sHenMuqub_aNgxYbuVsm9a-E_yKAGi76hDyYTzBjBAOX_wK1cXU91XqDmydj7waOLUz_wHV6BmVh1B9Gdsi4Y1AloX4Dto90NEE-3HGPbdJ97xhIdqTV-kpH51xO4F0ONf2dyknOBrddDE-PVXGR0xkAn31bMajADuIEfAt68dIpmZXeXMTM0Q',
+                img: 'https://images.unsplash.com/photo--CZJBYF3iHA?auto=format&fit=crop&w=800&q=80',
                 tag: 'Case Study • July 2025',
                 title: 'Success Story: Critical airway management.',
                 excerpt: 'How ROLA ET Tubes optimized emergency ventilation in a high-risk thoracic procedure.',
                 href: '/news/airway-management-success',
               },
               {
-                img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBsAzm_jU8m0SnNGQKcbXiFMuWcFrR9X7qkEJU8wZusAhsvyuMVYspGW0-f2CaY9X_9Dms8QvN9jOjweOnFZfkVsvAJu9F-RZhnC0czjkDpLgkpEvi1l-9HQvJ-_aBCvhLz6tMs1XIgtchIxu8wOPaDq_F5F4MFRXvfe94w4zIGxQ3eKW3zAXYTnYl84SmosUWIhk7CFVB9oInKqwBr8dVXp12nAQqK94Q9DBBikp1_AYcZdEADx5cH74A_wxeM-AHjdAB_FcCTQjQ',
+                img: 'https://images.unsplash.com/photo-CLhFS67ni1c?auto=format&fit=crop&w=800&q=80',
                 tag: 'Innovation • June 2025',
                 title: 'Sterility by Design: The ROLA packaging ethos.',
                 excerpt: 'Redefining the opening experience to maintain field sterility in fast-paced surgical environments.',

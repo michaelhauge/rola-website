@@ -17,8 +17,7 @@ const articles: Record<string, Article> = {
     title: 'Improving CVC Placement Accuracy in Small Breeds',
     category: 'VET TECH',
     date: 'August 2025',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuAMosQYTmYs6ySx8GdL0NNch4wn0dEjLYc3JvtoCenswrmTxJDKxDHxkZZgARzmHrM2GFDnUxCmuZRqCPVERLuE4r8T7RGpZopL3ykjV24hKM-7vULp1XFu7XYUjoMlf4I2I0GfzTRfvOMUZTCzXlf0dET8EcTJIOzgTdy0-3YLN7WJO_EoDFd2sKLvpAoeRIPtOw6sh6lrxNVZjqUwCOTt7ynTMIk4ZXypc1Qc35LGJ3_rL5FCpD9UVIx2w7fXYsBbzhQWfoUT8uo',
+    image: 'https://images.unsplash.com/photo-LCcJPoayxfM?auto=format&fit=crop&w=1200&q=80',
     excerpt:
       'Exploring the latest clinical techniques for central venous access in feline and small canine patients.',
     body: [
@@ -32,8 +31,7 @@ const articles: Record<string, Article> = {
     title: 'Critical Airway Management: A Success Story',
     category: 'Case Study',
     date: 'July 2025',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuAFSM6-L8ymCw_z2-nzcVNbPMEg8swNCSA4cbIXWV-TO1mhFssxBwf3ryXDioV5q0eSNefrqpR3f4CgvoXQmZnM7sHenMuqub_aNgxYbuVsm9a-E_yKAGi76hDyYTzBjBAOX_wK1cXU91XqDmydj7waOLUz_wHV6BmVh1B9Gdsi4Y1AloX4Dto90NEE-3HGPbdJ97xhIdqTV-kpH51xO4F0ONf2dyknOBrddDE-PVXGR0xkAn31bMajADuIEfAt68dIpmZXeXMTM0Q',
+    image: 'https://images.unsplash.com/photo--CZJBYF3iHA?auto=format&fit=crop&w=1200&q=80',
     excerpt:
       'How ROLA ET Tubes optimized emergency ventilation in a high-risk thoracic procedure at a leading veterinary hospital.',
     body: [
@@ -47,8 +45,7 @@ const articles: Record<string, Article> = {
     title: 'Sterility by Design: The ROLA Packaging Ethos',
     category: 'Innovation',
     date: 'June 2025',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuBsAzm_jU8m0SnNGQKcbXiFMuWcFrR9X7qkEJU8wZusAhsvyuMVYspGW0-f2CaY9X_9Dms8QvN9jOjweOnFZfkVsvAJu9F-RZhnC0czjkDpLgkpEvi1l-9HQvJ-_aBCvhLz6tMs1XIgtchIxu8wOPaDq_F5F4MFRXvfe94w4zIGxQ3eKW3zAXYTnYl84SmosUWIhk7CFVB9oInKqwBr8dVXp12nAQqK94Q9DBBikp1_AYcZdEADx5cH74A_wxeM-AHjdAB_FcCTQjQ',
+    image: 'https://images.unsplash.com/photo-CLhFS67ni1c?auto=format&fit=crop&w=1200&q=80',
     excerpt:
       'Redefining the opening experience to maintain field sterility in fast-paced surgical environments.',
     body: [
@@ -62,8 +59,7 @@ const articles: Record<string, Article> = {
     title: 'The IBPM System: Second Generation Improvements',
     category: 'Product Update',
     date: 'May 2025',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuA7trO1lxASfwV5UzvqZpIGIv8oeIw92kBvJdiF_5IBADWT3ldza1OzkfdrNVut9Wi_5xsFvBHQtBkbjuJgqJgypWUbNiyAeTK9iqytBXUCKAWOt_A5OdlTcjyd1rWx2GO1JCIT8-Y-Ys4HchxhX64e2XBzephQ9PtOg1Pd-9smXZA7Hbgd7rWU5KWgmcQF7jMyhGNaaj2_ohfs59oH7uUHLLA69Qc3dYcKfRkg1H8_ZAKPVQJtUTzMHLRb0QSs0XUqxRZ_kqQ6w',
+    image: 'https://images.unsplash.com/photo-3y6KBzrBo-0?auto=format&fit=crop&w=1200&q=80',
     excerpt:
       'What changed in the latest IBPM generation and why it matters for clinical hemodynamic monitoring.',
     body: [
@@ -77,8 +73,7 @@ const articles: Record<string, Article> = {
     title: 'A Second Chance for Rover: Chest Drainage in Practice',
     category: 'Case Study',
     date: 'April 2025',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuC5KilyjMdiBHHB6X8IFhSMZA9-zy2Dm82V9qg_yCnrI3sTN6EkvXn0hI_ZDDAwtBoldZjSQ1bvSSrWOVt6SxUefenSFeyalYecyQ69BckYRBanp9fzNzJ0hJqxw_aK_2DxhxvnHyRtBJgFiNPbnOC6C-rQd22xG1qvy5rlJi0_TCMuYD3ltRKfJmNy8Ro0rIrOAkwXYe-d9Y_9F0a8wNxcyDa6tTMtmuS3pvNQJaZtmogZa2ZrXEAD03tVGYOyNmv0V5ySdWnQmAw',
+    image: 'https://images.unsplash.com/photo-fr7ag3_8POU?auto=format&fit=crop&w=1200&q=80',
     excerpt:
       "A touching case of a Golden Retriever's recovery following emergency thoracic intervention.",
     body: [
@@ -92,8 +87,7 @@ const articles: Record<string, Article> = {
     title: 'The Future of Sterile Airway Management in Veterinary Practice',
     category: 'Innovation',
     date: 'March 2025',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuBBvbEJhkyGJXZUmYieFU8n3WgJFygrdn43Wu-oT0xfZ5o2mb2oCrq8hTAa7468cChugWr5I-74YBK37WU6fyyHZeUU08LFYhlfpaJ4T6aEw8DUM3snPtKOEDPibt7Q-khNl-2o43aLoYYU1vxNEY453nHXFoDmvP7oXtYQ-HR0H4okTT0gn8H7q7OTmubrQtTLPdewhUVgq_WZZ6YT6JVsZFld1EKDx3jm0FPtm8Kbo3Oef_3YuB5CokeXdTA2uHLEC0At8KZOuyY',
+    image: 'https://images.unsplash.com/photo-YseQjbBL_ys?auto=format&fit=crop&w=1200&q=80',
     excerpt:
       'How advances in ET tube design are changing the standard of care for veterinary airway management.',
     body: [

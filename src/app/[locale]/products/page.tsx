@@ -10,8 +10,7 @@ const products = [
     name: 'IBPM System',
     description:
       'Invasive blood pressure monitoring system with clinical-grade accuracy for real-time hemodynamic assessment during critical procedures.',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuAcT3W-cdzELEx_Pfli0X6kLYmPK2I1jcua8BA4iyv96-bpgcOke81ajlbUO8jykRA3QInwgMEsKIHZq1QtVxQ-wcbpvvmZR6Ml6hr-t22yvgMrgCGesZPQOgn78bcxH7f5LpXbxZfGM1lCcMCWjQDPKlt33Bb3NbyeeRx_qgDn9wXj3bSaAJkopx_5s5Z9lzq9R6qZT04muMFIEd7rQlzyT1gR9x83ydAJl066bAfgVIfi8NrF4IEWtflkuAeVHwXuY1GvW1ZCFcg',
+    image: 'https://images.unsplash.com/photo-LCcJPoayxfM?auto=format&fit=crop&w=1200&q=80',
     href: '/products/ibpm',
   },
   {
@@ -20,8 +19,7 @@ const products = [
     name: 'CVC Kits',
     description:
       'Central venous catheter kits optimized for anatomical variance across veterinary species, from small companion animals to large breeds.',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuB2HtcRcxMVVDhcc4c05uPWjNi1367lhIf7CYAxkJkC9DGqtWnSOCEYtialBsu5yFkFD3EHDG8egcANmAw55IpiJ1fcGWvfl2KbOKdth1mPJDVJYcgO72PNCIVMm_kwEnU6ceFS9DMNfKfnJi-jyLrLAvMC4h-51--pWFz3BlhMdyxxi7F_0Yj76KWcXexefLU-OwyBswQ-ZooZqCvtSgJPWjE97jnpHMF3mukSDAF4ijkcG3NU6APuF6p5N7lLT_YyPRw6_cKnmBY',
+    image: 'https://images.unsplash.com/photo-3y6KBzrBo-0?auto=format&fit=crop&w=1200&q=80',
     href: '/products/cvc',
   },
   {
@@ -30,8 +28,7 @@ const products = [
     name: 'ET Tubes',
     description:
       'High-flow, low-trauma endotracheal tubes engineered for reliable airway management across the full spectrum of veterinary patient sizes.',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuAMnEKJtHMl3SbU7cskEJLPkD-YENTmI1YXpA2wKJBV_7jLP2K7jRQXs1pn1SNILmtTE2ZB_uD1DhGN9nvV0M4Sq4TVhVOBAEazEb_ikKfwRYhFSTVQmi2SIgO7BDn5buWG7qLyhRQ_C8eunrDgzyK0F55llMwV_xRTP2-afqWTJkIN-7eu4QyzWfiJAFetWfYGbKPmir8YSslbRp2Ll05Z0pIONgeT6Rbn4ioP3qW3U5zXDiFBPDhbOAbBKHHr0bLjuAntiB9ubLw',
+    image: 'https://images.unsplash.com/photo--CZJBYF3iHA?auto=format&fit=crop&w=1200&q=80',
     href: '/products/endotracheal',
   },
   {
@@ -40,8 +37,7 @@ const products = [
     name: 'Chest Drainage',
     description:
       'Integrated thoracic drainage kits for efficient management of pleural effusion and pneumothorax in critical veterinary patients.',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuB-61S3_tmV8Ez1zXHVgBGdoe8KsmjH_t8Z9X0la120w0mvedQeUVeef-gJny-GkrePxJVhDoyh2StH4y9_FvPDrHXc-OrmfrgezL9pgXo3H2YUmeUIB0ZCxwGTSneVkQq3KsvI75cd2zdepvmueaI5wpE2FQXV-iiazxPxBcQOWZ8swb9vqerbs160G8mMF5SbRHlF3HRQE3k12JmJFzMvQJSbQ8DffGtq1imM5NOAUPbI8p3fhk3OkcFkrMhrnRFfdt51OxJm7N0',
+    image: 'https://images.unsplash.com/photo-dW6ZTzkn-j4?auto=format&fit=crop&w=1200&q=80',
     href: '/products/chest-drainage',
   },
 ];

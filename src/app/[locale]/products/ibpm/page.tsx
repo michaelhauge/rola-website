@@ -85,7 +85,7 @@ export default async function IBPMPage({ params }: Props) {
             {/* Right */}
             <div className="relative">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcT3W-cdzELEx_Pfli0X6kLYmPK2I1jcua8BA4iyv96-bpgcOke81ajlbUO8jykRA3QInwgMEsKIHZq1QtVxQ-wcbpvvmZR6Ml6hr-t22yvgMrgCGesZPQOgn78bcxH7f5LpXbxZfGM1lCcMCWjQDPKlt33Bb3NbyeeRx_qgDn9wXj3bSaAJkopx_5s5Z9lzq9R6qZT04muMFIEd7rQlzyT1gR9x83ydAJl066bAfgVIfi8NrF4IEWtflkuAeVHwXuY1GvW1ZCFcg"
+                src="https://images.unsplash.com/photo-LCcJPoayxfM?auto=format&fit=crop&w=1200&q=80"
                 alt="IBPM System"
                 className="w-full rounded-xl grayscale object-cover aspect-[4/3]"
               />

@@ -68,7 +68,7 @@ export default async function TeamPage({ params }: Props) {
             <div className="lg:col-span-5">
               <div className="aspect-[4/5] overflow-hidden bg-surface-container rounded-lg">
                 <img
-                  src="https://lh3.googleusercontent.com/aida/ADBb0ujgjghdeypBDBkyvjz0BJOwPab-yd8hwDQNg-_RyPwukngWQ51N-2txfdCuhg7dTUwh7i2jLhe5Bgq3F_nxson8WSpFdhlVeVMVH0vzaAQ0AnNRaFXGW_9Brg-LQhoaGLVQmGvj1Jz_dEMQJEUmwF97rXs2d4geM1gJxlXtq3_4aP8WJ1A5SD-RH7AzjJ0M1Wm7LKw2OyzaKVm3jgQeHKVEjJg-v7jF9wIOxxjHjl6giW5K70DX4OQnGy0pDleSJu1fMO4PQbA6-w"
+                  src="https://images.unsplash.com/photo-A6UjZEgbrwI?auto=format&fit=crop&w=800&q=80"
                   alt="Erica Chang — Founder and CEO of ROLA International"
                   className="w-full h-full object-cover grayscale"
                 />

@@ -85,7 +85,7 @@ export default async function AboutPage({ params }: Props) {
           <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
             <div>
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7trO1lxASfwV5UzvqZpIGIv8oeIw92kBvJdiF_5IBADWT3ldza1OzkfdrNVut9Wi_5xsFvBHQtBkbjuJgqJgypWUbNiyAeTK9iqytBXUCKAWOt_A5OdlTcjyd1rWx2GO1JCIT8-Y-Ys4HchxhX64e2XBzephQ9PtOg1Pd-9smXZA7Hbgd7rWU5KWgmcQF7jMyhGNaaj2_ohfs59oH7uUHLLA69Qc3dYcKfRkg1H8_ZAKPVQJtUTzMHLRb0QSs0XUqxRZ_kqQ6w"
+                src="https://images.unsplash.com/photo-3y6KBzrBo-0?auto=format&fit=crop&w=1200&q=80"
                 alt="ROLA founding team in the lab"
                 className="w-full rounded-xl grayscale object-cover"
               />

@@ -87,7 +87,7 @@ export default async function ChestDrainagePage({ params }: Props) {
             {/* Right */}
             <div className="relative">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-61S3_tmV8Ez1zXHVgBGdoe8KsmjH_t8Z9X0la120w0mvedQeUVeef-gJny-GkrePxJVhDoyh2StH4y9_FvPDrHXc-OrmfrgezL9pgXo3H2YUmeUIB0ZCxwGTSneVkQq3KsvI75cd2zdepvmueaI5wpE2FQXV-iiazxPxBcQOWZ8swb9vqerbs160G8mMF5SbRHlF3HRQE3k12JmJFzMvQJSbQ8DffGtq1imM5NOAUPbI8p3fhk3OkcFkrMhrnRFfdt51OxJm7N0"
+                src="https://images.unsplash.com/photo-dW6ZTzkn-j4?auto=format&fit=crop&w=1200&q=80"
                 alt="Chest Drainage System"
                 className="w-full rounded-xl grayscale object-cover aspect-[4/3]"
               />

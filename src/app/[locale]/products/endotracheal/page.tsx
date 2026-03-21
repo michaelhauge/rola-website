@@ -85,7 +85,7 @@ export default async function EndotrachealPage({ params }: Props) {
             {/* Right */}
             <div className="relative">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMnEKJtHMl3SbU7cskEJLPkD-YENTmI1YXpA2wKJBV_7jLP2K7jRQXs1pn1SNILmtTE2ZB_uD1DhGN9nvV0M4Sq4TVhVOBAEazEb_ikKfwRYhFSTVQmi2SIgO7BDn5buWG7qLyhRQ_C8eunrDgzyK0F55llMwV_xRTP2-afqWTJkIN-7eu4QyzWfiJAFetWfYGbKPmir8YSslbRp2Ll05Z0pIONgeT6Rbn4ioP3qW3U5zXDiFBPDhbOAbBKHHr0bLjuAntiB9ubLw"
+                src="https://images.unsplash.com/photo--CZJBYF3iHA?auto=format&fit=crop&w=1200&q=80"
                 alt="Endotracheal Tubes"
                 className="w-full rounded-xl grayscale object-cover aspect-[4/3]"
               />
