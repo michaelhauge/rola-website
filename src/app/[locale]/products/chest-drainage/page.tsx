@@ -1,0 +1,211 @@
+import { setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
+
+type Props = { params: Promise<{ locale: string }> };
+
+const features = [
+  {
+    icon: 'water_drop',
+    title: 'Water-Seal System',
+    description:
+      'Three-chamber design provides reliable pleural drainage with visual confirmation of air leak and fluid level monitoring.',
+  },
+  {
+    icon: 'speed',
+    title: 'Rapid Deployment',
+    description:
+      'Pre-assembled kit with all necessary components enables rapid deployment in emergency thoracic presentations.',
+  },
+  {
+    icon: 'sanitizer',
+    title: 'Sterile Complete Kit',
+    description:
+      'EO-sterilized complete kit includes drainage tube, trocar, connecting tubing, collection chamber, and fixation accessories.',
+  },
+];
+
+const specs = [
+  { name: 'Drainage Tube Size', value: '14 Fr, 20 Fr, 28 Fr, 32 Fr' },
+  { name: 'Collection Capacity', value: '600 mL, 1200 mL, 2000 mL' },
+  {
+    name: 'Chamber Design',
+    value: 'Triple-chamber (suction control, water seal, collection)',
+  },
+  { name: 'Suction Range', value: '-10 to -25 cmH₂O' },
+  { name: 'Connection', value: 'Universal Y-connector' },
+  { name: 'Sterilization', value: 'EO (Ethylene Oxide)' },
+  { name: 'Shelf Life', value: '3 Years' },
+];
+
+const applications = [
+  { icon: 'water_drop', label: 'Pleural Effusion Drainage' },
+  { icon: 'air', label: 'Pneumothorax Treatment' },
+  { icon: 'healing', label: 'Post-Surgical Thoracic Care' },
+  { icon: 'medical_services', label: 'Chylothorax Management' },
+];
+
+export default async function ChestDrainagePage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  return (
+    <div>
+      {/* Hero */}
+      <section className="pt-36 pb-0 bg-surface">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <div className="grid gap-16 lg:grid-cols-2 lg:items-center pb-24">
+            {/* Left */}
+            <div>
+              <p className="text-xs uppercase tracking-widest text-outline mb-4">
+                Thoracic Care
+              </p>
+              <h1 className="text-5xl md:text-6xl font-bold text-on-surface leading-tight mb-6">
+                Chest Drainage Systems
+              </h1>
+              <p className="text-lg text-on-surface-variant leading-relaxed mb-6">
+                Integrated kits for efficient management of pleural effusion and pneumothorax in
+                critical veterinary patients.
+              </p>
+              <span className="inline-block text-xs font-semibold uppercase tracking-widest text-on-secondary bg-secondary px-3 py-1 rounded-full mb-8">
+                Emergency Ready
+              </span>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center rounded-full bg-primary text-on-primary px-8 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
+                >
+                  Request Information
+                </Link>
+                <a
+                  href="#"
+                  className="inline-flex items-center justify-center rounded-full border border-outline text-on-surface px-8 py-3 text-sm font-semibold transition-colors hover:bg-surface-container-high"
+                >
+                  Download Spec Sheet
+                </a>
+              </div>
+            </div>
+            {/* Right */}
+            <div className="relative">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-61S3_tmV8Ez1zXHVgBGdoe8KsmjH_t8Z9X0la120w0mvedQeUVeef-gJny-GkrePxJVhDoyh2StH4y9_FvPDrHXc-OrmfrgezL9pgXo3H2YUmeUIB0ZCxwGTSneVkQq3KsvI75cd2zdepvmueaI5wpE2FQXV-iiazxPxBcQOWZ8swb9vqerbs160G8mMF5SbRHlF3HRQE3k12JmJFzMvQJSbQ8DffGtq1imM5NOAUPbI8p3fhk3OkcFkrMhrnRFfdt51OxJm7N0"
+                alt="Chest Drainage System"
+                className="w-full rounded-xl grayscale object-cover aspect-[4/3]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Key Features */}
+      <section className="py-24 bg-surface-container-low">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <p className="text-xs uppercase tracking-widest text-outline mb-4">Key Features</p>
+          <h2 className="text-4xl font-bold text-on-surface mb-14">
+            Reliable Thoracic Drainage
+          </h2>
+          <div className="grid gap-8 sm:grid-cols-3">
+            {features.map((feature) => (
+              <div
+                key={feature.title}
+                className="bg-surface rounded-2xl p-8 border border-outline-variant"
+              >
+                <span
+                  className="material-symbols-outlined text-4xl text-primary mb-4 block"
+                  aria-hidden="true"
+                >
+                  {feature.icon}
+                </span>
+                <h3 className="text-lg font-semibold text-on-surface mb-3">{feature.title}</h3>
+                <p className="text-sm text-on-surface-variant leading-relaxed">
+                  {feature.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Technical Specifications */}
+      <section className="py-24 bg-surface">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <p className="text-xs uppercase tracking-widest text-outline mb-4">
+            Technical Data
+          </p>
+          <h2 className="text-4xl font-bold text-on-surface mb-14">
+            Specifications
+          </h2>
+          <div className="max-w-2xl">
+            <div className="rounded-2xl overflow-hidden border border-outline-variant">
+              {specs.map((spec, index) => (
+                <div
+                  key={spec.name}
+                  className={`flex items-start justify-between px-6 py-4 gap-8 ${
+                    index % 2 === 0 ? 'bg-surface-container-lowest' : 'bg-surface-container-low'
+                  }`}
+                >
+                  <span className="text-sm font-medium text-on-surface-variant shrink-0">
+                    {spec.name}
+                  </span>
+                  <span className="text-sm font-semibold text-on-surface text-right">
+                    {spec.value}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Clinical Applications */}
+      <section className="py-24 bg-surface-container-low">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <p className="text-xs uppercase tracking-widest text-outline mb-4">
+            Where It&apos;s Used
+          </p>
+          <h2 className="text-4xl font-bold text-on-surface mb-14">
+            Clinical Applications
+          </h2>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {applications.map((app) => (
+              <div
+                key={app.label}
+                className="bg-surface rounded-2xl p-8 text-center border border-outline-variant"
+              >
+                <span
+                  className="material-symbols-outlined text-4xl text-primary mb-4 block"
+                  aria-hidden="true"
+                >
+                  {app.icon}
+                </span>
+                <p className="text-sm font-semibold text-on-surface">{app.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Bar */}
+      <section className="py-16 bg-on-background text-on-tertiary">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-8">
+          <h2 className="text-2xl font-bold text-on-tertiary">
+            Ready to Order or Learn More?
+          </h2>
+          <div className="flex flex-col sm:flex-row gap-4 shrink-0">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-full bg-on-tertiary text-on-background px-8 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
+            >
+              Request Information
+            </Link>
+            <Link
+              href="/products"
+              className="inline-flex items-center justify-center rounded-full border border-outline-variant text-on-tertiary px-8 py-3 text-sm font-semibold transition-colors hover:bg-surface/10"
+            >
+              All Products
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

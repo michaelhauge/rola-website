@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "team": "团队",
+    "factory": "工厂",
+    "products": "产品",
+    "caseStudies": "案例",
+    "contact": "联系",
+    "news": "新闻"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "contactUs": "联系我们",
+    "requestQuote": "索取报价",
+    "readMore": "阅读更多",
+    "all": "全部",
+    "veterinary": "兽医",
+    "hospital": "医院"
+  },
+  "home": {
+    "heroTitle": "赋能兽医，关爱动物",
+    "heroSubtitle": "为兽医与医院场景打造的医疗设备。为照护动物与患者的专业人士精工制造。",
+    "productsTitle": "我们的产品",
+    "factoryTitle": "自有工厂制造",
+    "factorySubtitle": "从原料到交付的全流程把控。单一来源，统一标准。",
+    "dualMarketTitle": "兽医信赖。医院信赖。",
+    "dualMarketVetTitle": "兽医",
+    "dualMarketVetDesc": "为伴侣动物与马科诊疗打造的专用设备。从常规手术到重症护理。",
+    "dualMarketHospitalTitle": "医院",
+    "dualMarketHospitalDesc": "与人类医疗应用相同的质量标准。ICU、手术室与急诊。",
+    "testimonialsTitle": "合作伙伴评价",
+    "ctaTitle": "与 Rola 合作",
+    "ctaSubtitle": "与我们的团队讨论您的设备需求。"
+  },
+  "products": {
+    "description": "为兽医与医院场景打造的医疗设备。选择产品查看规格与使用场景。"
+  },
+  "team": {
+    "description": "ROLA 产品与制造背后的领导层与核心职能。"
+  },
+  "caseStudies": {
+    "description": "兽医诊所与医院如何使用 ROLA 产品。挑战、解决方案与结果。"
+  },
+  "contact": {
+    "intro": "联系我们讨论设备需求、索取报价或了解更多产品与制造信息。",
+    "name": "姓名",
+    "email": "邮箱",
+    "organization": "单位",
+    "phone": "电话",
+    "productInterest": "产品意向",
+    "message": "留言",
+    "send": "发送",
+    "companyInfo": "公司信息",
+    "mapPlaceholder": "地图占位"
+  },
+  "news": {
+    "description": "公司动态、产品更新与行业洞察。更多内容敬请期待。",
+    "comingSoon": "敬请期待。"
+  }
+}

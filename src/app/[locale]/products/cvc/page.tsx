@@ -1,0 +1,206 @@
+import { setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
+
+type Props = { params: Promise<{ locale: string }> };
+
+const features = [
+  {
+    icon: 'precision_manufacturing',
+    title: 'Anatomically Optimized',
+    description:
+      'Catheter dimensions and guide wire stiffness calibrated specifically for veterinary vascular anatomy across species.',
+  },
+  {
+    icon: 'bloodtype',
+    title: 'Complete Kit',
+    description:
+      'Each kit includes catheter, guide wire, dilator, introducer needle, syringe, and sterile drape — everything required for a clean placement.',
+  },
+  {
+    icon: 'sanitizer',
+    title: 'Sterile Single-Use',
+    description:
+      'EO-sterilized, individually packaged for field sterility from package to placement.',
+  },
+];
+
+const specs = [
+  { name: 'Gauge Options', value: '16G, 18G, 20G, 22G' },
+  { name: 'Catheter Length', value: '6 cm, 8 cm, 10 cm, 13 cm' },
+  { name: 'Guide Wire', value: 'J-tip, 0.018" / 0.025" / 0.035"' },
+  { name: 'Material', value: 'Polyurethane / Silicone' },
+  { name: 'Lumen Options', value: 'Single / Double / Triple' },
+  { name: 'Sterilization', value: 'EO (Ethylene Oxide)' },
+  { name: 'Shelf Life', value: '3 Years' },
+];
+
+const applications = [
+  { icon: 'monitor_heart', label: 'Central Venous Pressure Monitoring' },
+  { icon: 'water_drop', label: 'Fluid & Drug Administration' },
+  { icon: 'labs', label: 'Blood Sampling' },
+  { icon: 'nutrition', label: 'Parenteral Nutrition' },
+];
+
+export default async function CVCPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  return (
+    <div>
+      {/* Hero */}
+      <section className="pt-36 pb-0 bg-surface">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <div className="grid gap-16 lg:grid-cols-2 lg:items-center pb-24">
+            {/* Left */}
+            <div>
+              <p className="text-xs uppercase tracking-widest text-outline mb-4">
+                Vascular Access
+              </p>
+              <h1 className="text-5xl md:text-6xl font-bold text-on-surface leading-tight mb-6">
+                CVC Kits
+              </h1>
+              <p className="text-lg text-on-surface-variant leading-relaxed mb-6">
+                Central venous catheter kits optimized for veterinary anatomy — from small companion
+                animals to large breeds.
+              </p>
+              <span className="inline-block text-xs font-semibold uppercase tracking-widest text-on-secondary bg-secondary px-3 py-1 rounded-full mb-8">
+                Multi-Species
+              </span>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center rounded-full bg-primary text-on-primary px-8 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
+                >
+                  Request Information
+                </Link>
+                <a
+                  href="#"
+                  className="inline-flex items-center justify-center rounded-full border border-outline text-on-surface px-8 py-3 text-sm font-semibold transition-colors hover:bg-surface-container-high"
+                >
+                  Download Spec Sheet
+                </a>
+              </div>
+            </div>
+            {/* Right */}
+            <div className="relative">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2HtcRcxMVVDhcc4c05uPWjNi1367lhIf7CYAxkJkC9DGqtWnSOCEYtialBsu5yFkFD3EHDG8egcANmAw55IpiJ1fcGWvfl2KbOKdth1mPJDVJYcgO72PNCIVMm_kwEnU6ceFS9DMNfKfnJi-jyLrLAvMC4h-51--pWFz3BlhMdyxxi7F_0Yj76KWcXexefLU-OwyBswQ-ZooZqCvtSgJPWjE97jnpHMF3mukSDAF4ijkcG3NU6APuF6p5N7lLT_YyPRw6_cKnmBY"
+                alt="CVC Kits"
+                className="w-full rounded-xl grayscale object-cover aspect-[4/3]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Key Features */}
+      <section className="py-24 bg-surface-container-low">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <p className="text-xs uppercase tracking-widest text-outline mb-4">Key Features</p>
+          <h2 className="text-4xl font-bold text-on-surface mb-14">
+            Built for the Veterinary Clinician
+          </h2>
+          <div className="grid gap-8 sm:grid-cols-3">
+            {features.map((feature) => (
+              <div
+                key={feature.title}
+                className="bg-surface rounded-2xl p-8 border border-outline-variant"
+              >
+                <span
+                  className="material-symbols-outlined text-4xl text-primary mb-4 block"
+                  aria-hidden="true"
+                >
+                  {feature.icon}
+                </span>
+                <h3 className="text-lg font-semibold text-on-surface mb-3">{feature.title}</h3>
+                <p className="text-sm text-on-surface-variant leading-relaxed">
+                  {feature.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Technical Specifications */}
+      <section className="py-24 bg-surface">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <p className="text-xs uppercase tracking-widest text-outline mb-4">
+            Technical Data
+          </p>
+          <h2 className="text-4xl font-bold text-on-surface mb-14">
+            Specifications
+          </h2>
+          <div className="max-w-2xl">
+            <div className="rounded-2xl overflow-hidden border border-outline-variant">
+              {specs.map((spec, index) => (
+                <div
+                  key={spec.name}
+                  className={`flex items-center justify-between px-6 py-4 ${
+                    index % 2 === 0 ? 'bg-surface-container-lowest' : 'bg-surface-container-low'
+                  }`}
+                >
+                  <span className="text-sm font-medium text-on-surface-variant">{spec.name}</span>
+                  <span className="text-sm font-semibold text-on-surface text-right">
+                    {spec.value}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Clinical Applications */}
+      <section className="py-24 bg-surface-container-low">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+          <p className="text-xs uppercase tracking-widest text-outline mb-4">
+            Where It&apos;s Used
+          </p>
+          <h2 className="text-4xl font-bold text-on-surface mb-14">
+            Clinical Applications
+          </h2>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {applications.map((app) => (
+              <div
+                key={app.label}
+                className="bg-surface rounded-2xl p-8 text-center border border-outline-variant"
+              >
+                <span
+                  className="material-symbols-outlined text-4xl text-primary mb-4 block"
+                  aria-hidden="true"
+                >
+                  {app.icon}
+                </span>
+                <p className="text-sm font-semibold text-on-surface">{app.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Bar */}
+      <section className="py-16 bg-on-background text-on-tertiary">
+        <div className="mx-auto max-w-6xl px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-8">
+          <h2 className="text-2xl font-bold text-on-tertiary">
+            Ready to Order or Learn More?
+          </h2>
+          <div className="flex flex-col sm:flex-row gap-4 shrink-0">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-full bg-on-tertiary text-on-background px-8 py-3 text-sm font-semibold transition-opacity hover:opacity-90"
+            >
+              Request Information
+            </Link>
+            <Link
+              href="/products"
+              className="inline-flex items-center justify-center rounded-full border border-outline-variant text-on-tertiary px-8 py-3 text-sm font-semibold transition-colors hover:bg-surface/10"
+            >
+              All Products
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

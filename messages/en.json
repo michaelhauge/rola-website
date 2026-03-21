@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "team": "Team",
+    "factory": "Factory",
+    "products": "Products",
+    "caseStudies": "Case Studies",
+    "contact": "Contact",
+    "news": "News"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "requestQuote": "Request a quote",
+    "readMore": "Read more",
+    "all": "All",
+    "veterinary": "Veterinary",
+    "hospital": "Hospital"
+  },
+  "home": {
+    "heroTitle": "Empowering Vets, Caring for Pets",
+    "heroSubtitle": "Purpose-built medical devices for veterinary and hospital use. Precision-engineered for the professionals who care for animals and patients.",
+    "productsTitle": "Our Products",
+    "factoryTitle": "Wholly-Owned Manufacturing",
+    "factorySubtitle": "End-to-end control from materials to delivery. One source. One standard.",
+    "dualMarketTitle": "Trusted by veterinarians. Trusted by hospitals.",
+    "dualMarketVetTitle": "Veterinary",
+    "dualMarketVetDesc": "Purpose-built devices for companion animal and equine practice. From routine procedures to critical care.",
+    "dualMarketHospitalTitle": "Hospital",
+    "dualMarketHospitalDesc": "Same quality standards for human medical applications. ICU, OR, and emergency use.",
+    "testimonialsTitle": "What Our Partners Say",
+    "ctaTitle": "Partner with Rola",
+    "ctaSubtitle": "Discuss your equipment needs with our team."
+  },
+  "products": {
+    "description": "Purpose-built medical devices for veterinary and hospital use. Select a product to view specifications and use cases."
+  },
+  "team": {
+    "description": "Leadership and key functions behind ROLA's products and manufacturing."
+  },
+  "caseStudies": {
+    "description": "How veterinary practices and hospitals use ROLA products. Challenge, solution, and result."
+  },
+  "contact": {
+    "intro": "Get in touch to discuss your equipment needs, request a quote, or learn more about our products and manufacturing.",
+    "name": "Name",
+    "email": "Email",
+    "organization": "Organization",
+    "phone": "Phone",
+    "productInterest": "Product interest",
+    "message": "Message",
+    "send": "Send message",
+    "companyInfo": "Company info",
+    "mapPlaceholder": "Map placeholder"
+  },
+  "news": {
+    "description": "Company news, product updates, and industry insights. More content coming soon.",
+    "comingSoon": "Coming soon."
+  }
+}
