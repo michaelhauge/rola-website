@@ -87,7 +87,7 @@ export default async function ChestDrainagePage({ params }: Props) {
             {/* Right */}
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-dW6ZTzkn-j4?auto=format&fit=crop&w=1200&q=80"
+                src="/images/chest-drainage-system.jpg"
                 alt="Chest Drainage System"
                 className="w-full rounded-xl grayscale object-cover aspect-[4/3]"
               />

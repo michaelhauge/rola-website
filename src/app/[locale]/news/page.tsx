@@ -6,7 +6,7 @@ type Props = { params: Promise<{ locale: string }> };
 const gridArticles = [
   {
     slug: 'airway-management-success',
-    image: 'https://images.unsplash.com/photo--CZJBYF3iHA?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/7469226/pexels-photo-7469226.jpeg?auto=compress&cs=tinysrgb&w=800',
     tag: 'Case Study',
     title: 'Critical Airway Management: A Success Story',
     excerpt:
@@ -15,7 +15,7 @@ const gridArticles = [
   },
   {
     slug: 'sterility-by-design',
-    image: 'https://images.unsplash.com/photo-CLhFS67ni1c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/159541/pexels-photo-159541.jpeg?auto=compress&cs=tinysrgb&w=800',
     tag: 'Innovation',
     title: 'Sterility by Design: The ROLA Packaging Ethos',
     excerpt:
@@ -24,7 +24,7 @@ const gridArticles = [
   },
   {
     slug: 'ibpm-second-generation',
-    image: 'https://images.unsplash.com/photo-3y6KBzrBo-0?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/6234610/pexels-photo-6234610.jpeg?auto=compress&cs=tinysrgb&w=800',
     tag: 'Product Update',
     title: 'The IBPM System: Second Generation Improvements',
     excerpt:
@@ -33,7 +33,7 @@ const gridArticles = [
   },
   {
     slug: 'a-second-chance-for-rover',
-    image: 'https://images.unsplash.com/photo-fr7ag3_8POU?auto=format&fit=crop&w=800&q=80',
+    image: '/images/chest-drainage-system.jpg',
     tag: 'Case Study',
     title: 'A Second Chance for Rover: Chest Drainage in Practice',
     excerpt:
@@ -42,7 +42,7 @@ const gridArticles = [
   },
   {
     slug: 'future-of-sterile-airway-management',
-    image: 'https://images.unsplash.com/photo-YseQjbBL_ys?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.pexels.com/photos/27107874/pexels-photo-27107874.jpeg?auto=compress&cs=tinysrgb&w=800',
     tag: 'Innovation',
     title: 'The Future of Sterile Airway Management in Veterinary Practice',
     excerpt:
@@ -77,7 +77,7 @@ export default async function NewsPage({ params }: Props) {
           <div className="grid gap-10 lg:grid-cols-2 lg:items-center bg-surface-container-low rounded-3xl overflow-hidden border border-outline-variant">
             <div className="aspect-video lg:aspect-auto lg:h-full overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-LCcJPoayxfM?auto=format&fit=crop&w=1200&q=80"
+                src="https://images.pexels.com/photos/6235230/pexels-photo-6235230.jpeg?auto=compress&cs=tinysrgb&w=1200"
                 alt="CVC Placement Accuracy in Small Breeds"
                 className="w-full h-full object-cover grayscale"
               />

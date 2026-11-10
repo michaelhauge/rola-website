@@ -122,6 +122,9 @@
   --color-on-error-container: var(--on-error-container);
 
   --font-sans: var(--font-dm-sans), var(--font-noto-sans-sc), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-dm-serif), Georgia, 'Times New Roman', serif;
+
+  --color-clinical: #0066cc;
 }
 
 body {
@@ -136,4 +139,10 @@ body {
 
 .grayscale-image {
   filter: grayscale(100%);
+  transition: filter 0.6s ease;
+}
+
+.grayscale-image:hover,
+.group:hover .grayscale-image {
+  filter: grayscale(0%);
 }

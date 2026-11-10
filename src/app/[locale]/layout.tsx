@@ -2,7 +2,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
-import { DM_Sans, Noto_Sans_SC } from 'next/font/google';
+import { DM_Sans, Noto_Sans_SC, DM_Serif_Display } from 'next/font/google';
 import { routing } from '@/i18n/routing';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
@@ -25,6 +25,13 @@ const notoSansSC = Noto_Sans_SC({
   display: 'swap',
 });
 
+const dmSerifDisplay = DM_Serif_Display({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-dm-serif',
+  display: 'swap',
+});
+
 type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
@@ -41,7 +48,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <NextIntlClientProvider messages={messages} locale={locale} timeZone="Asia/Shanghai" now={new Date()}>
-      <div className={`${dmSans.variable} ${notoSansSC.variable} flex min-h-screen flex-col font-sans`}>
+      <div className={`${dmSans.variable} ${notoSansSC.variable} ${dmSerifDisplay.variable} flex min-h-screen flex-col font-sans`}>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

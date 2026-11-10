@@ -17,7 +17,7 @@ const articles: Record<string, Article> = {
     title: 'Improving CVC Placement Accuracy in Small Breeds',
     category: 'VET TECH',
     date: 'August 2025',
-    image: 'https://images.unsplash.com/photo-LCcJPoayxfM?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.pexels.com/photos/6235230/pexels-photo-6235230.jpeg?auto=compress&cs=tinysrgb&w=1200',
     excerpt:
       'Exploring the latest clinical techniques for central venous access in feline and small canine patients.',
     body: [
@@ -31,7 +31,7 @@ const articles: Record<string, Article> = {
     title: 'Critical Airway Management: A Success Story',
     category: 'Case Study',
     date: 'July 2025',
-    image: 'https://images.unsplash.com/photo--CZJBYF3iHA?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.pexels.com/photos/7469226/pexels-photo-7469226.jpeg?auto=compress&cs=tinysrgb&w=1200',
     excerpt:
       'How ROLA ET Tubes optimized emergency ventilation in a high-risk thoracic procedure at a leading veterinary hospital.',
     body: [
@@ -45,7 +45,7 @@ const articles: Record<string, Article> = {
     title: 'Sterility by Design: The ROLA Packaging Ethos',
     category: 'Innovation',
     date: 'June 2025',
-    image: 'https://images.unsplash.com/photo-CLhFS67ni1c?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.pexels.com/photos/159541/pexels-photo-159541.jpeg?auto=compress&cs=tinysrgb&w=1200',
     excerpt:
       'Redefining the opening experience to maintain field sterility in fast-paced surgical environments.',
     body: [
@@ -59,7 +59,7 @@ const articles: Record<string, Article> = {
     title: 'The IBPM System: Second Generation Improvements',
     category: 'Product Update',
     date: 'May 2025',
-    image: 'https://images.unsplash.com/photo-3y6KBzrBo-0?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.pexels.com/photos/6234610/pexels-photo-6234610.jpeg?auto=compress&cs=tinysrgb&w=1200',
     excerpt:
       'What changed in the latest IBPM generation and why it matters for clinical hemodynamic monitoring.',
     body: [
@@ -73,7 +73,7 @@ const articles: Record<string, Article> = {
     title: 'A Second Chance for Rover: Chest Drainage in Practice',
     category: 'Case Study',
     date: 'April 2025',
-    image: 'https://images.unsplash.com/photo-fr7ag3_8POU?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/chest-drainage-system.jpg',
     excerpt:
       "A touching case of a Golden Retriever's recovery following emergency thoracic intervention.",
     body: [
@@ -87,7 +87,7 @@ const articles: Record<string, Article> = {
     title: 'The Future of Sterile Airway Management in Veterinary Practice',
     category: 'Innovation',
     date: 'March 2025',
-    image: 'https://images.unsplash.com/photo-YseQjbBL_ys?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.pexels.com/photos/27107874/pexels-photo-27107874.jpeg?auto=compress&cs=tinysrgb&w=1200',
     excerpt:
       'How advances in ET tube design are changing the standard of care for veterinary airway management.',
     body: [
